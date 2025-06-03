@@ -12,7 +12,3 @@ plt.figure(figsize=(8, 6))
 sns.heatmap(corr_matrix, annot=True, cmap= 'crest', fmt='.2f')
 plt.title('Correlation Matrix Heatmap')
 plt.show()
-
-sns.pairplot(data, kind='scatter',diag_kind='kde', plot_kws={'alpha': 0.5})
-plt.savefig('exp2-2.png')
-plt.show()
